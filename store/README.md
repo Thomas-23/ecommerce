@@ -8,11 +8,14 @@ cd ecommerce
 pyvenv .
 ```
 
-windows:
-    /path/to/ecommerce/Scripts/activate
-类unix:
-    source /path/to/ecommerce/bin/activate
+激活虚拟环境变量
+-----------------
+
+windows: `/path/to/ecommerce/Scripts/activate`
+
+类unix: `source /path/to/ecommerce/bin/activate`
 ```
+
 cd store
 
 pip install -r requirements-devel.txt
