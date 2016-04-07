@@ -1,21 +1,25 @@
 创建项目过程
-
+------------
+```
 git clone https://github.com/Thomas-23/ecommerce.git
 
 cd ecommerce
 
 pyvenv .
+```
 
 windows:
     /path/to/ecommerce/Scripts/activate
 类unix:
     source /path/to/ecommerce/bin/activate
-
+```
 cd store
 
 pip install -r requirements-devel.txt
-
+```
 创建sqlite数据库
+-----------------
+```
 python manage.py migrate
 
 python manage.py makemigrations
@@ -23,16 +27,23 @@ python manage.py makemigrations
 python manage.py migrate
 
 python manage.py loaddata category/fixtures/category.json
+```
 
+开启服务
+-------------
+```
 python manage.py createsuperuser
 
 python manage.py runserver 8001
---------------------------------------------
+```
 
 测试能够访问到接口数据
+-----------------------
 
+```
 http GET http://127.0.0.1:8001/products/
-
+```
+```
 HTTP/1.0 200 OK
 Allow: GET, HEAD, OPTIONS
 Content-Type: application/json
@@ -64,3 +75,4 @@ X-Frame-Options: SAMEORIGIN
         "updated": "2016-04-07T08:59:02.220190Z"
     }
 ]
+```
