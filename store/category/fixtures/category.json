@@ -1,0 +1,39 @@
+[
+  {
+    "model": "category.category",
+    "pk": 1,
+    "fields": {
+      "created": "2016-04-07T07:04:35.176Z",
+      "updated": "2016-04-07T07:04:35.176Z",
+      "meta_keywords": "\u4e50\u5668",
+      "meta_description": "\u4e50\u5668",
+      "description": "\u4e50\u5668",
+      "is_active": true,
+      "name": "\u4e50\u5668"
+    }
+  },
+  {
+    "model": "category.product",
+    "pk": 1,
+    "fields": {
+      "created": "2016-04-07T07:04:37.283Z",
+      "updated": "2016-04-07T08:59:02.220Z",
+      "meta_keywords": "\u5409\u4ed6,\u4e50\u5668",
+      "meta_description": "\u4e50\u5668",
+      "description": "\u65b0\u6b3e\u5409\u4ed6\uff0c\u6df1\u53d7\u5e74\u8f7b\u670b\u53cb\u7684\u559c\u7231\uff0c\u5df2\u7ecf\u5356\u51fa100w\u53f0",
+      "is_active": true,
+      "name": "\u5409\u4ed6",
+      "brand": "\u8c79\u7eb9",
+      "sku": "sku code",
+      "price": "600.00",
+      "old_price": "550.00",
+      "image": "image_name",
+      "is_best_seller": false,
+      "is_featured": false,
+      "quantity": 50,
+      "categories": [
+        1
+      ]
+    }
+  }
+]
