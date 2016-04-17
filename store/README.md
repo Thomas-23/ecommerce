@@ -79,5 +79,3 @@ X-Frame-Options: SAMEORIGIN
     }
 ]
 ```
-
-test
